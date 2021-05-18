@@ -21,6 +21,7 @@ namespace ConsoleApp1
             }
             Console.WriteLine($"My name is {names[1]}");
             Console.WriteLine($"I've added {names[2]}, {names[3]} and {names[4]} to the list");
+            Console.WriteLine($"The list has {names.Count} people in it");
         }
     }
 }
